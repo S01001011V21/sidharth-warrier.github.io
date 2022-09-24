@@ -126,4 +126,31 @@
 </section>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    var options = {
+      strings: [
+        `${new Date().getFullYear() - 2005}  Y/O`,
+        "AWESOME",
+        "AMBIVERT",
+        "HI",
+      ],
+      typeSpeed: 80,
+      onComplete: () => {
+        setTimeout(() => {
+          document.getElementById("help").style.opacity = 1;
+          document.body.style.animation = "animation 100s linear infinite";
+        }, 1200);
+      },
+    };
+
+    var typed = new Typed("#element", options);
+  </script>
+
 </html>

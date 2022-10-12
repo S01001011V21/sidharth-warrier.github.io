@@ -143,8 +143,8 @@ button{
 .service h1{
   padding: 2%;
   color: rgb(0, 0, 0);
-  font-size: 40px;
-  
+  font-size: 70px;
+  font-weight: 400;
 }
 .service-list{
   display: grid;

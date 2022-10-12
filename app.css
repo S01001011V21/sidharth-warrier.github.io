@@ -37,7 +37,7 @@ nav ul li{
 nav ul li a{
   font-size: 30px;
   letter-spacing: 5px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-weight: bold;

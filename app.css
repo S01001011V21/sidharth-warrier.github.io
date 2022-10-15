@@ -143,8 +143,8 @@ button{
 .service h1{
   padding: 2%;
   color: rgb(0, 0, 0);
-  font-size: 70px;
-  font-weight: 400;
+  font-size: 35px;
+  font-weight: 300;
 }
 .service-list{
   display: grid;
@@ -161,7 +161,7 @@ button{
 
 /*------services overlay------------*/
 .service-list div{
-  background: rgb(108, 106, 106);
+  background: rgb(58, 65, 65);
   padding: 40px;
   font-size: 13px;
   font-weight: 300;

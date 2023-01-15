@@ -143,6 +143,14 @@ button{
 .service h1{
   padding: 2%;
   color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-weight: 400;
+	text-transform: capitalize;
+	font-family: 'Courier New', Courier, monospace;
+}
+.service h2{
+  padding: 2%;
+  color: white;
   font-size: 35px;
   font-weight: 300;
 }
